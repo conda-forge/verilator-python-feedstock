@@ -1,6 +1,6 @@
 context:
   name: verilator-python
-  version: 5.34.0
+  version: "5.38.0"
   python_min: 3.9
 
 package:
@@ -8,8 +8,8 @@ package:
   version: ${{ version }}
 
 source:
-    url: https://pypi.org/packages/source/v/verilator/verilator-${{ version }}.tar.gz
-    sha256: 70d03bac0b5a9d3f70486b40670224d74422d9fa7629a8e13f57fbb89e927308
+    url: https://files.pythonhosted.org/packages/56/4f/095eaa3f5786e0dbd087a1b43cf680a056de899848c6ee8b32c9342d0e8b/verilator-${{ version }}.tar.gz
+    sha256: 54d04e7c687abfeffcfc969d9cb19135bcaebadaecce9ac62d2d6e50bccd4a58
 
 build:
   number: 0
